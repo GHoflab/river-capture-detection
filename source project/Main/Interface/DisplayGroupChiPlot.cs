@@ -38,7 +38,7 @@ namespace Main.Interface
             Series s1 = new Series();
             s1.ChartType = SeriesChartType.Point;
             s1.Points.DataBindXY(chi1, height1);
-            s1.Name = "Possible captured river";
+            s1.Name = "Stream-captured river";
             chart1.Series.Clear();
             chart1.Series.Add(s1);
 
@@ -47,7 +47,7 @@ namespace Main.Interface
             Series s2 = new Series();
             s2.ChartType = SeriesChartType.Point;
             s2.Points.DataBindXY(chi2, height2);
-            s2.Name = "Possible reversed river";
+            s2.Name = "Stream-reversed river";
             chart1.Series.Add(s2);
 
             IList<double> chi3 = chiFile3.chi;
@@ -55,10 +55,14 @@ namespace Main.Interface
             Series s3 = new Series();
             s3.ChartType = SeriesChartType.Point;
             s3.Points.DataBindXY(chi3, height3);
-            s3.Name = "Possible beheaded river";
+            s3.Name = "Beheaded river";
             chart1.Series.Add(s3);
 
             chart1.ChartAreas[0].AxisY.Minimum = Math.Min(height3.Min(), Math.Min(height1.Min(), height2.Min()));
+            chart1.ChartAreas[0].AxisY.Title = "elevation(m)";
+            chart1.ChartAreas[0].AxisX.Title = "χ(m)";
+            chart1.ChartAreas[0].AxisY.TitleForeColor = System.Drawing.Color.Crimson;
+            chart1.ChartAreas[0].AxisX.TitleForeColor = System.Drawing.Color.Crimson;
             //chart1.ChartAreas[0].AxisX.Minimum = 0;
 
         }
@@ -66,7 +70,7 @@ namespace Main.Interface
         private void button1_Click(object sender, EventArgs e)
         {
             OpenFileDialog pOFD = new OpenFileDialog();
-            pOFD.Title = "χ-plot file of possible captured river";
+            pOFD.Title = "χ-plot file of stream-captured river";
             pOFD.Filter = "CSV(*.csv)|*.csv";
             if (pOFD.ShowDialog() == DialogResult.OK)
             {
@@ -78,7 +82,7 @@ namespace Main.Interface
         private void button2_Click(object sender, EventArgs e)
         {
             OpenFileDialog pOFD = new OpenFileDialog();
-            pOFD.Title = "χ-plot file of possible reversed river";
+            pOFD.Title = "χ-plot file of stream-reversed river";
             pOFD.Filter = "CSV(*.csv)|*.csv";
             if (pOFD.ShowDialog() == DialogResult.OK)
             {
@@ -90,7 +94,7 @@ namespace Main.Interface
         private void button3_Click(object sender, EventArgs e)
         {
             OpenFileDialog pOFD = new OpenFileDialog();
-            pOFD.Title = "χ-plot file of possible beheaded river";
+            pOFD.Title = "χ-plot file of beheaded river";
             pOFD.Filter = "CSV(*.csv)|*.csv";
             if (pOFD.ShowDialog() == DialogResult.OK)
             {
@@ -113,7 +117,7 @@ namespace Main.Interface
             Series s1 = new Series();
             s1.ChartType = SeriesChartType.Point;
             s1.Points.DataBindXY(chi1, height1);
-            s1.Name = "possible captured river";
+            s1.Name = "stream-captured river";
             chart1.Series.Clear();
             chart1.Series.Add(s1);
 
@@ -122,7 +126,7 @@ namespace Main.Interface
             Series s2 = new Series();
             s2.ChartType = SeriesChartType.Point;
             s2.Points.DataBindXY(chi2, height2);
-            s2.Name = "possible reversed river";
+            s2.Name = "stream-reversed river";
             chart1.Series.Add(s2);
 
             IList<double> chi3 = chiFile3.chi;
@@ -130,10 +134,14 @@ namespace Main.Interface
             Series s3 = new Series();
             s3.ChartType = SeriesChartType.Point;
             s3.Points.DataBindXY(chi3, height3);
-            s3.Name = "possible beheaded river";
+            s3.Name = "beheaded river";
             chart1.Series.Add(s3);
 
             chart1.ChartAreas[0].AxisY.Minimum = Math.Min(height3.Min(), Math.Min(height1.Min(), height2.Min()));
+            chart1.ChartAreas[0].AxisX.Minimum = 0;
+            chart1.ChartAreas[0].AxisY.Title = "elevation(m)";
+            chart1.ChartAreas[0].AxisX.Title = "χ(m)";
+            chart1.ChartAreas[0].AxisX.RoundAxisValues();
             //chart1.ChartAreas[0].AxisX.Minimum = 0;
         }
     }

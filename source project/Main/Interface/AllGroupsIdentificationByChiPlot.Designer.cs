@@ -136,7 +136,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AllGroupsIdentificationByChiPlot";
-            this.Text = "Judgement of χ-plot pattern (batch)";
+            this.Text = "χ-plot pattern (batch)";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

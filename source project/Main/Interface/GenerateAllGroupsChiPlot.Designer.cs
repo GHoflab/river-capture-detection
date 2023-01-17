@@ -357,9 +357,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(33, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 18);
+            this.label1.Size = new System.Drawing.Size(188, 18);
             this.label1.TabIndex = 0;
-            this.label1.Text = "River layer";
+            this.label1.Text = "Stream network layer";
             // 
             // GenerateAllGroupsChiPlot
             // 

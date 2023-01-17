@@ -61,9 +61,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(23, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(215, 18);
+            this.label1.Size = new System.Drawing.Size(233, 18);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Possible captured river";
+            this.label1.Text = "Stream-captured tributary";
             // 
             // button1
             // 
@@ -78,10 +78,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(244, 10);
+            this.textBox1.Location = new System.Drawing.Point(262, 10);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(267, 28);
+            this.textBox1.Size = new System.Drawing.Size(249, 28);
             this.textBox1.TabIndex = 5;
             // 
             // button2
@@ -97,10 +97,10 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(244, 44);
+            this.textBox2.Location = new System.Drawing.Point(262, 44);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(267, 28);
+            this.textBox2.Size = new System.Drawing.Size(249, 28);
             this.textBox2.TabIndex = 8;
             // 
             // label2
@@ -108,9 +108,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(23, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(215, 18);
+            this.label2.Size = new System.Drawing.Size(233, 18);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Possible reversed river";
+            this.label2.Text = "Stream-reversed tributary";
             // 
             // button3
             // 
@@ -125,10 +125,10 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(244, 79);
+            this.textBox3.Location = new System.Drawing.Point(262, 79);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(267, 28);
+            this.textBox3.Size = new System.Drawing.Size(249, 28);
             this.textBox3.TabIndex = 11;
             // 
             // label3
@@ -136,9 +136,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(23, 85);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(215, 18);
+            this.label3.Size = new System.Drawing.Size(134, 18);
             this.label3.TabIndex = 10;
-            this.label3.Text = "Possible beheaded river";
+            this.label3.Text = "Beheaded river";
             // 
             // button4
             // 

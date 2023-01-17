@@ -22,7 +22,7 @@ namespace Main.Interface
         private void button1_Click(object sender, EventArgs e)
         {
             OpenFileDialog pOFD = new OpenFileDialog();
-            pOFD.Title = "χ-plot file of possible captured river";
+            pOFD.Title = "χ-plot file of stream-captured river";
             pOFD.Filter = "csv(*.csv)|*.csv";
             if (pOFD.ShowDialog() == DialogResult.OK)
             {
@@ -33,7 +33,7 @@ namespace Main.Interface
         private void button2_Click(object sender, EventArgs e)
         {
             OpenFileDialog pOFD = new OpenFileDialog();
-            pOFD.Title = "χ-plot file of possible reversed river";
+            pOFD.Title = "χ-plot file of stream-reversed river";
             pOFD.Filter = "csv(*.csv)|*.csv";
             if (pOFD.ShowDialog() == DialogResult.OK)
             {
@@ -44,7 +44,7 @@ namespace Main.Interface
         private void button3_Click(object sender, EventArgs e)
         {
             OpenFileDialog pOFD = new OpenFileDialog();
-            pOFD.Title = "χ-plot file of possible beheaded river";
+            pOFD.Title = "χ-plot file of beheaded river";
             pOFD.Filter = "csv(*.csv)|*.csv";
             if (pOFD.ShowDialog() == DialogResult.OK)
             {

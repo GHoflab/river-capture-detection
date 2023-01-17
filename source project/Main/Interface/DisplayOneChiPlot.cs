@@ -45,6 +45,9 @@ namespace Main.Interface
             chart1.Series.Add(s1);
             chart1.ChartAreas[0].AxisY.Minimum = height.Min();
             chart1.ChartAreas[0].AxisX.Minimum = 0;
+            chart1.ChartAreas[0].AxisY.Title = "elevation(m)";
+            chart1.ChartAreas[0].AxisX.Title = "χ(m)";
+            chart1.ChartAreas[0].AxisX.RoundAxisValues();
         }
     }
 }

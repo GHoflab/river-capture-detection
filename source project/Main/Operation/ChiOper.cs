@@ -28,7 +28,7 @@ namespace Main.Operation
                 ChiDown(FID, ref reaches, exponent);
                 if (reaches[FID].upstream1 != -1)
                 {
-                    //递归计算所有上游河段chi值
+                    //recursively calculate upstream chi values
                     ChiUp(reaches[FID].upstream1, ref reaches, exponent);
                     ChiUp(reaches[FID].upstream2, ref reaches, exponent);
                 }
@@ -56,18 +56,18 @@ namespace Main.Operation
         {
             if (reaches[index].chi.Count == 0)
             {
-                //如果非最下游
+                //if not the lowest reach
                 if (reaches[index].downStream != -1)
                 {
-                    //从最下游河段开始计算
+                    //calculate from the lowest reach
                     ChiDown(reaches[index].downStream, ref reaches, exponent);
-                    //初始化list
+                    //initialize list
                     for (int i = 0; i < reaches[index].distance.Count; i++)
                         reaches[index].chi.Add(0);
                     
                     
                     int temp = 0;
-                    //剔除无效点
+                    //filter out invalid points
                     for (int i = 1; i < reaches[index].distance.Count; i++)
                     {
                         if (reaches[index].acc[i] < reaches[index].acc[temp])
@@ -103,9 +103,9 @@ namespace Main.Operation
                             }
                         }
                     }
-                    //最后一个点与下游第一个点重合，因此chi值也一致
+                    //last point equal to first point of downstream, same chi
                     reaches[index].chi[reaches[index].chi.Count - 1] = reaches[reaches[index].downStream].chi[0];
-                    //自下而上计算chi值
+                    //calculate chi from low to high elevations
                     for (int i = reaches[index].distance.Count - 2; i >= 0; i--)
                     {
                         //Point matrixP = MatrixXY(streams[index].profilePoints[i]);
@@ -114,10 +114,10 @@ namespace Main.Operation
                         reaches[index].chi[i] = reaches[index].chi[i + 1] + reaches[index].distance[i] * Math.Pow((1 / reaches[index].acc[i]), exponent);
                     }
                 }
-                //最下游河段
+                //the lowest reach
                 else
                 {
-                    //最下游处为0
+                    //0 for the lowest point
                     for (int i = 0; i < reaches[index].distance.Count; i++)
                         reaches[index].chi.Add(0);
                     reaches[index].chi[reaches[index].distance.Count - 1] = 0;
@@ -184,7 +184,7 @@ namespace Main.Operation
                 if (reaches[index].upstream1 != -1)
                 {
                     ChiUp(reaches[index].upstream1, ref reaches, exponent);
-                    ChiUp(reaches[index].upstream2, ref reaches, exponent);
+                    //ChiUp(reaches[index].upstream2, ref reaches, exponent);
                 }
                 return 1;
             }
@@ -233,7 +233,7 @@ namespace Main.Operation
             if (reaches[index].upstream1 != -1)
             {
                 ExportChiUp(reaches[index].upstream1, reaches, chiBase, filePath);
-                ExportChiUp(reaches[index].upstream2, reaches, chiBase, filePath);
+                //ExportChiUp(reaches[index].upstream2, reaches, chiBase, filePath);
             }
             return 0;
         }
@@ -243,9 +243,9 @@ namespace Main.Operation
             ChiDown(FID, ref reaches, exponent);
             if (reaches[FID].upstream1 != -1)
             {
-                //递归计算所有上游河段chi值
+                //recursively calculate upstream chi values
                 ChiUp(reaches[FID].upstream1, ref reaches, exponent);
-                ChiUp(reaches[FID].upstream2, ref reaches, exponent);
+                //ChiUp(reaches[FID].upstream2, ref reaches, exponent);
             }
             StreamWriter sw = new StreamWriter(savePath, true, System.Text.Encoding.Default);
             sw.WriteLine("chi,elevation");
@@ -256,7 +256,7 @@ namespace Main.Operation
             if (reaches[FID].upstream1 != -1 && baseFound)
             {
                 ExportChiUp(reaches[FID].upstream1, reaches, chiBase, savePath);
-                ExportChiUp(reaches[FID].upstream2, reaches, chiBase, savePath);
+                //ExportChiUp(reaches[FID].upstream2, reaches, chiBase, savePath);
             }
         }
         //generate chi-plot of all possible groups passed rough identification

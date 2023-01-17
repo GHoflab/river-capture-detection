@@ -296,15 +296,15 @@
             // oneRiverToolStripMenuItem
             // 
             this.oneRiverToolStripMenuItem.Name = "oneRiverToolStripMenuItem";
-            this.oneRiverToolStripMenuItem.Size = new System.Drawing.Size(296, 28);
+            this.oneRiverToolStripMenuItem.Size = new System.Drawing.Size(238, 28);
             this.oneRiverToolStripMenuItem.Text = "Single river";
             this.oneRiverToolStripMenuItem.Click += new System.EventHandler(this.oneRiverToolStripMenuItem_Click);
             // 
             // allGroupsToolStripMenuItem
             // 
             this.allGroupsToolStripMenuItem.Name = "allGroupsToolStripMenuItem";
-            this.allGroupsToolStripMenuItem.Size = new System.Drawing.Size(296, 28);
-            this.allGroupsToolStripMenuItem.Text = "Target candidate regions";
+            this.allGroupsToolStripMenuItem.Size = new System.Drawing.Size(238, 28);
+            this.allGroupsToolStripMenuItem.Text = "Candidate regions";
             this.allGroupsToolStripMenuItem.Click += new System.EventHandler(this.allGroupsToolStripMenuItem_Click);
             // 
             // χplotIdentificationToolStripMenuItem
@@ -313,14 +313,14 @@
             this.oneGroupToolStripMenuItem,
             this.allGroupsToolStripMenuItem1});
             this.χplotIdentificationToolStripMenuItem.Name = "χplotIdentificationToolStripMenuItem";
-            this.χplotIdentificationToolStripMenuItem.Size = new System.Drawing.Size(187, 28);
-            this.χplotIdentificationToolStripMenuItem.Text = "Accurate Detection";
+            this.χplotIdentificationToolStripMenuItem.Size = new System.Drawing.Size(177, 28);
+            this.χplotIdentificationToolStripMenuItem.Text = "Refined Detection";
             // 
             // oneGroupToolStripMenuItem
             // 
             this.oneGroupToolStripMenuItem.Name = "oneGroupToolStripMenuItem";
-            this.oneGroupToolStripMenuItem.Size = new System.Drawing.Size(285, 28);
-            this.oneGroupToolStripMenuItem.Text = "Single candidate region";
+            this.oneGroupToolStripMenuItem.Size = new System.Drawing.Size(268, 28);
+            this.oneGroupToolStripMenuItem.Text = "One candidate region";
             this.oneGroupToolStripMenuItem.Click += new System.EventHandler(this.oneGroupToolStripMenuItem_Click);
             // 
             // allGroupsToolStripMenuItem1
@@ -342,14 +342,14 @@
             // displayOneΧplotToolStripMenuItem
             // 
             this.displayOneΧplotToolStripMenuItem.Name = "displayOneΧplotToolStripMenuItem";
-            this.displayOneΧplotToolStripMenuItem.Size = new System.Drawing.Size(259, 28);
-            this.displayOneΧplotToolStripMenuItem.Text = "Display single χ-plot";
+            this.displayOneΧplotToolStripMenuItem.Size = new System.Drawing.Size(218, 28);
+            this.displayOneΧplotToolStripMenuItem.Text = "Display a χ-plot";
             this.displayOneΧplotToolStripMenuItem.Click += new System.EventHandler(this.displayOneΧplotToolStripMenuItem_Click);
             // 
             // displayΧplotOfGroupToolStripMenuItem
             // 
             this.displayΧplotOfGroupToolStripMenuItem.Name = "displayΧplotOfGroupToolStripMenuItem";
-            this.displayΧplotOfGroupToolStripMenuItem.Size = new System.Drawing.Size(259, 28);
+            this.displayΧplotOfGroupToolStripMenuItem.Size = new System.Drawing.Size(218, 28);
             this.displayΧplotOfGroupToolStripMenuItem.Text = "Display χ-plots";
             this.displayΧplotOfGroupToolStripMenuItem.Click += new System.EventHandler(this.displayΧplotOfGroupToolStripMenuItem_Click);
             // 

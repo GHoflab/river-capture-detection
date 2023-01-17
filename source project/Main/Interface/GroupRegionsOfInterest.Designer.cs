@@ -57,10 +57,10 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(147, 36);
+            this.comboBox1.Location = new System.Drawing.Point(224, 36);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(245, 26);
+            this.comboBox1.Size = new System.Drawing.Size(168, 26);
             this.comboBox1.TabIndex = 1;
             // 
             // label1
@@ -68,9 +68,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(30, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 18);
+            this.label1.Size = new System.Drawing.Size(188, 18);
             this.label1.TabIndex = 0;
-            this.label1.Text = "River layer";
+            this.label1.Text = "Stream network layer";
             // 
             // groupBox2
             // 
@@ -99,10 +99,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(147, 32);
+            this.textBox1.Location = new System.Drawing.Point(224, 32);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(192, 28);
+            this.textBox1.Size = new System.Drawing.Size(115, 28);
             this.textBox1.TabIndex = 1;
             // 
             // label2

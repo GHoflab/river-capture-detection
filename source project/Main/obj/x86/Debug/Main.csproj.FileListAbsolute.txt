@@ -37,3 +37,22 @@ C:\Users\mqy\Desktop\geomorphology\RiverCaptureDetection\Main\obj\x86\Debug\Main
 C:\Users\mqy\Desktop\geomorphology\RiverCaptureDetection\Main\obj\x86\Debug\Main.Interface.PlatformFeatureCaptureIdentification.resources
 C:\Users\mqy\Desktop\geomorphology\RiverCaptureDetection\Main\obj\x86\Debug\Main.Interface.Settings.resources
 C:\Users\mqy\Desktop\geomorphology\RiverCaptureDetection\Main\obj\x86\Debug\Main.Interface.AttributeTable.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.exe
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.pdb
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\bin\Debug\Main.exe
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\bin\Debug\Main.pdb
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.csprojResolveAssemblyReference.cache
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.Interface.AboutUs.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.Interface.AllGroupsIdentificationByChiPlot.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.Interface.DisplayGroupChiPlot.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.Interface.DisplayOneChiPlot.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.Form1.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.Interface.GenerateAllGroupsChiPlot.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.Interface.GenerateOneRiverChiPlot.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.Interface.GroupRegionsOfInterest.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.Interface.OneGroupIdentificationByChiPlot.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.Interface.PlatformFeatureCaptureIdentification.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.Interface.Settings.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.Interface.AttributeTable.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.Properties.Resources.resources
+C:\Users\mqy\Desktop\geomorphology\github\source project\Main\obj\x86\Debug\Main.csproj.GenerateResource.Cache

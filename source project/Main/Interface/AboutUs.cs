@@ -15,5 +15,16 @@ namespace Main.Interface
         {
             InitializeComponent();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(linkLabel1.Text);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText("Automatic detection of river capture based on planform pattern and χ-plot of the stream network");
+            MessageBox.Show("Title copied");
+        }
     }
 }

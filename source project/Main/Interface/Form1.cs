@@ -684,9 +684,9 @@ namespace Main
                 pIden.BaseLevelUnify();
                 bool result = pIden.Identification();
                 if (result)
-                    MessageBox.Show("Involving capture!");
+                    MessageBox.Show("Capture detected!");
                 else
-                    MessageBox.Show("Not involving capture!");
+                    MessageBox.Show("Capture not detected!");
             }
         }
 
