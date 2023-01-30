@@ -21,7 +21,7 @@ namespace Main.Operation
             double angle2 = IncludedAngle(reaches[tributary2].flowDirection, reaches[main].flowDirection);
             if (angle1 > captureElbowThre * Math.PI / 180)
                 elbowCondition += 1;
-            else if (angle2 > captureElbowThre * Math.PI / 180)
+            if (angle2 > captureElbowThre * Math.PI / 180)
                 elbowCondition += 2;
             else
                 roughCaptured = roughCaptured && false;
