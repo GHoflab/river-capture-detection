@@ -22,7 +22,7 @@ If the following interface appears, the installation is done and you can perform
 
 ### install prerequisite softwares for compiling the source code
 
-Install Visual Studio 2010 (see [website](https://learn.microsoft.com/en-us/visualstudio/releasenotes/vs2010-sp1-vs) and ArcObjects 10.2 for .NET (see [website](https://resources.arcgis.com/en/help/arcobjects-net/conceptualHelp/index.html#/ArcObjects_Help_for_NET_developers/0001000002zs000000/)) before installing ArcEngine. 
+Install Visual Studio 2010 (see [website](https://learn.microsoft.com/en-us/visualstudio/releasenotes/vs2010-sp1-vs)) and ArcObjects 10.2 for .NET (see [website](https://resources.arcgis.com/en/help/arcobjects-net/conceptualHelp/index.html#/ArcObjects_Help_for_NET_developers/0001000002zs000000/)) before installing ArcEngine. 
 
 ## Source project
 
